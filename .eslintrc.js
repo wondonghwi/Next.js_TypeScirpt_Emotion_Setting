@@ -26,15 +26,6 @@ module.exports = {
 
   rules: {
     'prettier/prettier': 'error',
-    // '@tossteam/ban-characters': [
-    //   'error',
-    //   {
-    //     bannedCharactersRegex: mergeBannedCharacters([
-    //       '\u001c', // Zeplin에서 복사 시 잘못 추가될 수 있는 문자
-    //     ]),
-    //   },
-    // ],
-    // '@tossteam/ban-http-link': 'error',
     'no-implicit-coercion': 'error',
 
     // TypeScript에서 이미 잘 해주고 있어서
